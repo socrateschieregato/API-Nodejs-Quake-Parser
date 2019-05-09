@@ -1,0 +1,30 @@
+{
+  "name": "api-nodejs-quake-parser",
+  "version": "1.0.0",
+  "description": "Parser de logs do game Quake que retorna os resultados das partidas",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "istanbul cover node_modules/jasmine/bin/jasmine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://socrateschieregato@bitbucket.org/socrateschieregato/api-nodejs-quake-parser.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Parser"
+  ],
+  "author": "Sócrates Eduardo Chieregato",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/socrateschieregato/api-nodejs-quake-parser#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "hapi": "^16.6.2",
+    "nodemon": "^1.18.4"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.8.0"
+  }
+}
